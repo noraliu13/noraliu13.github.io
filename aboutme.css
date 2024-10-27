@@ -1,0 +1,29 @@
+img {
+    float: left;
+    width: 400px;
+    height: auto;
+    padding: 0px 40px 0px 0px;
+}
+
+.text div {
+    margin: 50px 50px 0px 50px;
+}
+
+.here {
+    text-decoration: underline;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+/* when text is below image */
+@media screen and (max-width: 600px) {
+    img {
+        float: left;
+        width: 400px;
+        height: auto;
+        padding: 0px 40px 40px 0px;
+    }
+    
+}
