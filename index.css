@@ -55,6 +55,10 @@
             margin-right: auto;
             max-width: 100%;
         }
+        .images figcaption h2 {
+            max-width: 90%;
+            text-align: center;
+        }
     
     }
 
@@ -71,8 +75,13 @@
         
             .images figure img {
                 width: 700px;
-                height: 700px;
-
+                height: auto;
+                
+            .images figcaption h2 {
+                max-width: 90%;
+                text-align: center;
+            }
+    
             }
             figure:hover {
                 transform: scale(1);
