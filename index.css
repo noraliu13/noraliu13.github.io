@@ -34,8 +34,8 @@
         transform: scale(1.05);
     }
         
-    @media screen and (max-width: 1380px) {
-        @media screen and (min-width: 980px) {
+/*     @media screen and (max-width: 1380px) {*/
+        @media screen and (min-width: 980px) { 
     
             .images figure img {
                 display: block;
@@ -50,7 +50,7 @@
                 text-align: center;
             }
         }
-    }
+/*     } */
 
     @media screen and (max-width: 800px) {
         .images {
