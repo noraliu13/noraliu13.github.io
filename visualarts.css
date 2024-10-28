@@ -1,0 +1,128 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+/* four columns */
+.column {
+    display: center;
+    max-width: 23%;
+    padding: 4px;
+}
+
+.column img {
+    vertical-align: middle;
+    padding-top: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 0.5;
+}
+
+
+/* two columns */
+@media screen and (max-width: 980px) {
+    .column {
+        flex: 50%;
+        max-width: 45%;
+    }
+}
+
+/* one column */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; /* stacking */
+    padding-top: 40px; /* location */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    float: left;
+    width: 450px;
+    height: auto;
+    margin: 40px;
+}
+
+#caption {
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    width: 80%;
+    text-align: left;
+    height: auto;
+}
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* responsive layout */
+@media only screen and (max-width: 980px) {
+    .modal-content {
+        width: 45%;
+    }
+}
+
+#modalTitle {
+    font-weight: bold;
+    margin: 0;
+    color: rgb(107, 150, 129);
+    font-size: 35;
+    margin-bottom: 40px;
+
+}
+
+#modalSize,
+#modalMedium {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(186, 188, 187);
+    font-size: 18;
+}
