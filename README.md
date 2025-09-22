@@ -4,7 +4,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 📝 Overview 
 This is my very first personal website, built entirely from scratch to showcase my Visual Arts portfolio. I designed and coded everything myself, so it’s a bit rough around the edges, but it was a great learning experience!
 - **HTML**: Structured the website's layout and architecture.  
 - **CSS**: Enhanced user interface design for an engaging and cohesive experience.  
